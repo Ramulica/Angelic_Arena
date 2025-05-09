@@ -4,7 +4,7 @@
 #include "../include/Hero.hpp"
 
 HighOrc::HighOrc(int level)
-    : Enemy("High Orc", level, 150, 50) {}
+    : Enemy("High Orc", level, 50) {}
 
 void HighOrc::basic_attack(Hero& target) {
     int damage = 20; // example damage

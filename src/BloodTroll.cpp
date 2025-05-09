@@ -4,7 +4,7 @@
 #include "../include/Hero.hpp"
 
 BloodTroll::BloodTroll(int level)
-    : Enemy("Blood Troll", level, 130, 50) {}
+    : Enemy("Blood Troll", level, 50) {}
 
 void BloodTroll::basic_attack(Hero& target) {
     int damage = 10; // example damage

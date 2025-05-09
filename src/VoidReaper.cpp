@@ -4,7 +4,7 @@
 #include "../include/Hero.hpp"
 
 VoidReaper::VoidReaper(int level)
-    : Enemy("Void Reaper", level, 140, 60) {}
+    : Enemy("Void Reaper", level, 60) {}
 
 void VoidReaper::basic_attack(Hero& target) {
     int damage = 15; // example damage

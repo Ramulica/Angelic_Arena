@@ -4,7 +4,7 @@
 #include "../include/Hero.hpp"
 
 DreadWraith::DreadWraith(int level)
-    : Enemy("Dread Wraith", level, 120, 60) {}
+    : Enemy("Dread Wraith", level, 60) {}
 
 void DreadWraith::basic_attack(Hero& target) {
     int damage = 12; // example damage

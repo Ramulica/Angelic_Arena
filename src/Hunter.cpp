@@ -4,7 +4,7 @@
 #include "../include/Enemy.hpp"
 
 Hunter::Hunter(const std::string& name)
-    : Hero(name, 1, 100, 100) {}
+    : Hero(name,5 , 100, 100) {}
 
 void Hunter::basic_attack(Enemy& target) {
     int damage = 10; // example damage

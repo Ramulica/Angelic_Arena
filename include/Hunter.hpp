@@ -9,4 +9,5 @@ public:
     void basic_attack(Enemy& target) override;
     void active_skill() override;
     void passive_skill() override;
+    
 };

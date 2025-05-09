@@ -4,7 +4,7 @@
 #include "../include/Enemy.hpp"
 
 Mage::Mage(const std::string& name)
-    : Hero(name, 1, 80, 100) {}
+    : Hero(name,5 , 80, 100) {}
 
 void Mage::basic_attack(Enemy& target) {
     int damage = 12; // example damage

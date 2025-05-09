@@ -3,9 +3,14 @@
 
 class BodyArmor : public Item {
 public:
-    float health_percentage;  // health percentage bonus for BodyArmor
+    float health_percentage;
+    int get_health() const;
+    std::string get_type() const;
 
-    // Constructor
-    BodyArmor(const std::string& name, int health, int damage, const std::string& rarity, int id, float health_percentage)
-        : Item(name, health, damage, rarity, id), health_percentage(health_percentage) {}
+    float get_health_percentage() const override;
+    float get_attack_percentage() const override; 
+
+    BodyArmor(const std::string& name, int level, int health, int damage, const std::string& rarity, int id, float health_percentage, std::string type);
+    void print_info() const override;
+
 };
