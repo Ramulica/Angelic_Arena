@@ -34,7 +34,9 @@ Acest proiect este un mini-joc RPG realizat în C++ în care un erou se luptă c
 
 Alte clase esențiale:
 Game – Gestionează bătălia, turele și progresul eroului.
+
 ItemFactory – Forjă magică ce creează obiecte aleatorii după nivelul eroului. 
+
   Un item se creaza in felul acesta
     1. se alege tupul de item
     2. se alege random o raritate
@@ -45,9 +47,13 @@ ItemFactory – Forjă magică ce creează obiecte aleatorii după nivelul eroul
 ## Excepții ##
 
 **GameException** – Apare când o acțiune invalidă este făcută în timpul luptei.
+
 **FileLoadException** – Se aruncă atunci când un fișier nu poate fi încărcat corect (ex: iteme).
+
 **InvalidEnemyStatsException** – Este folosită când un inamic are statistici incorecte.
+
 **HeroException** – Pentru orice problemă legată direct de starea sau datele unui erou.
+
 
 ---
 
