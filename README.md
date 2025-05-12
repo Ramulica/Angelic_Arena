@@ -59,4 +59,5 @@ ItemFactory – Forjă magică ce creează obiecte aleatorii după nivelul eroul
 
 ## Alte cerinte ##
 
-
+1. Functii virtuale apar in calsa item
+2. Exsista functii de nivel inalt: calcularea voetii/atacului sau crearea de item
