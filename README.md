@@ -42,11 +42,15 @@ ItemFactory – Forjă magică ce creează obiecte aleatorii după nivelul eroul
     4. valoare este imnultita in functie de raritatea itemului
 
 ---
-## Excepții
+## Excepții ##
 
 **GameException** – Apare când o acțiune invalidă este făcută în timpul luptei.
 **FileLoadException** – Se aruncă atunci când un fișier nu poate fi încărcat corect (ex: iteme).
 **InvalidEnemyStatsException** – Este folosită când un inamic are statistici incorecte.
 **HeroException** – Pentru orice problemă legată direct de starea sau datele unui erou.
+
+---
+
+## Alte cerinte ##
 
 
